@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+/*body: hover {
+    animation: shake 2s;
+}*/
+
+h1 {
+    font-family: 'Roboto', cursive;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+
+body.anime {
+    background-color: yellow;
+}
+
+.disaster {
+    color: red;
+    animation: shake 2s;
+}
+
+#announcement.hidden {
+    visibility: hidden;
+}
+
+#announcement.open {
+    visibility: visible;
+    font-style: italic;
+}
+
+.win.hidden {
+    visibility: hidden;
+}
+
+.win.open {
+    visibility: visible;
+}
+
