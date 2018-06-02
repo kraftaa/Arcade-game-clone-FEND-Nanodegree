@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class='canvas'>
+        <h1>SCORE : <span id='score'></span></h1>
+        <div id = "timer" class = "timer">
+            <label id="minutes">00</label>:<label id="seconds">00</label>
+        </div>
+        <div id = "announcement" class = 'hidden' style="color: black;">
+            <h1 class = "disaster">Disaster!</h1>
+        </div>
+        <div id = "win" class = 'win hidden' style="color: black;">
+            <h1 class = "win">WOOHOO!</h1>
+        </div>
+    </section>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
